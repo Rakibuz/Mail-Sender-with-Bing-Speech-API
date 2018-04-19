@@ -280,10 +280,6 @@ namespace OutLookMail
             dataGridView_CellClick(sender, e);
 
         }
-
-       
-        // here angelkona077@gmail.com in logedin in outlook rsp055@gmail.com 
-        // sender use ase pranto055@gmail.com
         private void Send_button_Click(object sender, EventArgs e)
         {
             try
@@ -348,20 +344,6 @@ namespace OutLookMail
             parse_msg.Text = Regex.Replace(parse_msg.Text, "<.*?>", String.Empty);
             speechsynth.SpeakAsync(parse_msg.Text);
 
-
-        }
-
-        private void Subject_lebel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Subject_textbox_TextChanged(object sender, EventArgs e)
-        {
-          
-        }
-        private void webBrowser_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
-        {
 
         }
     }
