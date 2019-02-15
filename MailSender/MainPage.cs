@@ -26,7 +26,7 @@ namespace OutLookMail
         MicrophoneRecognitionClient _microphoneRecognitionClient;
 
 
-        //Variable decleration for  MSAPI
+        //Instance Creation  for  MSAPI and SpeechSynthesizer,SpeechRecognitionEngine class
         SpeechSynthesizer speechsynth = new SpeechSynthesizer();
         SpeechRecognitionEngine receng = new SpeechRecognitionEngine();
         Choices choice = new Choices();
